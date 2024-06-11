@@ -1,0 +1,15 @@
+#task 1
+
+# List of artist names scheduled to perform at the music festival
+artist_names = ["Anitta", "Rihanna", "Selena Gomez", "Justin Bieber", "Beyonce", "SZA", "Billie Eilish"]
+
+# Initialize an empty set to store the unique lineup
+unique_lineup = set()
+
+# Loop through the list of artist names and add each name to the set
+for artist in artist_names:
+    unique_lineup.add(artist)
+
+# Display the unique lineup of artists
+print("Unique lineup of artists:")
+print(unique_lineup)
